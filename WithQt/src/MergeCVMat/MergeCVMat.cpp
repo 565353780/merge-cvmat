@@ -93,9 +93,8 @@ Mat MergeCVMat::mergeImage(vector<Mat>& image_vec, int row_image_num, int col_im
 //            Mat dstMat = merge_image(Rect(image_position_vector_[i].col_min, image_position_vector_[i].row_min, image_position_vector_[i].cols, image_position_vector_[i].rows));
 
 //            image_vec[i].colRange(0, image_position_vector_[i].cols).copyTo(dstMat);
-
-//            resize(merge_image, merge_image, Size(image_position_vector_[i].unit_cols, image_position_vector_[i].unit_rows));
 //        }
+//        resize(merge_image, merge_image, Size(unit_image_rows_sum_, unit_image_cols_sum_));
 
 //        return merge_image;
 //    }
